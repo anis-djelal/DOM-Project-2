@@ -1,0 +1,31 @@
+/* Center the content on the page */
+.container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+
+/* The box that changes color */
+#color-box {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  margin: 20px auto;
+  border-radius: 10px;
+  transition: background-color 0.5s ease; /* smooth color transition */
+}
+
+/* The button */
+#change-color-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#change-color-btn:hover {
+  background-color: #0056b3;
+}
